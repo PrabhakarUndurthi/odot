@@ -1,5 +1,6 @@
 require 'spec_helper'
+require 'minitest/autorun'
 
 describe TodoList do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it {should have_many(:todo_items)}
 end
